@@ -172,6 +172,13 @@ a{
 .white-arrow{
     padding-left: 53px;
 }
+.jake_sally {
+    height: 350px;
+    width: 100%;
+    color: var(--blockquote-color);
+    text-align: center;
+    padding: 75px 0 10px;
+}
 .quote{
     font-size: 36px;
 }
@@ -231,17 +238,48 @@ a{
     background-repeat: no-repeat;
     height: 704px;
     width: 100%;
-}
-.jake_sally {
-    height: 350px;
-    width: 100%;
-    color: var(--blockquote-color);
+    color: rgb(20, 20, 20);
     text-align: center;
-    padding: 75px 0 10px;
+}
+.language_title{
+    font-family: var(--second-family);
+    font-size: 32px;
+    line-height: 1.25;
+    padding: 58px 0 45px;
+}
+.language_list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 36px;
+    font-family: var(--second-family);
+    font-size: 24px;
+    justify-content: space-between;
+    text-align: center;
+}
+.language_box{
+    width: 320px;
+    padding: 36px 0;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.language_box .translate::after{
+    content: '';
+    display: block;
+    margin: 40px auto;
+    width: 152px;
+    height: 40px;
+}
+.language_box:nth-child(3n+1) .translate::after{
+    background-image: url('../img/left_arrow.svg');
+}
+.language_box:nth-child(3n+2) .translate::after{
+    background-image: url('../img/sumbol_small.svg');
+}
+.language_box:nth-child(3n) .translate::after{
+    background-image: url('../img/right_arrow.svg');
 }
 /* footer -------------------------------------------------------------------- */
 .footer >.container {
-    height: 223px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -251,8 +289,33 @@ a{
 .footer{
     content: '';
     background-image: linear-gradient(to right, rgba(43, 74, 97, 87%),
-            rgba(43, 74, 97, 87%)), url('../img/sea_dragon.png');
+    rgba(43, 74, 97, 87%)), url('../img/sea_dragon.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 35px 0 25px;
+}
+.footer-list{
+    display: block;
+    border-left: 2px solid white;
+    height: 135px;
+    padding-left: 60px;
+    align-items: center;
+}
+.footer-mail{
+    color: white;
+}
+.footer-box{
+    display: flex;
+    gap: 20px;
+}
+.footer-copyright{
+    text-align: center;
+    font-size: 17px
+}
+.footer-box.short{
+    padding: 45px 0 8px;
+}
+.footer-box.long {
+    padding: 8px 0 45px;
 }
