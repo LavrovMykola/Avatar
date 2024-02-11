@@ -1,12 +1,17 @@
-<svg width="152" height="40" viewBox="0 0 152 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="0.5" y="0.5" width="151" height="39" fill="url(#pattern0)" stroke="url(#pattern1)"/>
-<defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_9_18" transform="scale(0.00657895 0.025)"/>
-</pattern>
-<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_9_18" transform="scale(0.00657895 0.025)"/>
-</pattern>
-<image id="image0_9_18" width="152" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAAoCAYAAAACCDNUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAI1SURBVHgB7Zg7axRRFIDP5m2MD8T4wkcEQQTtTGUrwUYstLOxshC0EIR0lna21tHKf2DsQhQLKzFtMFERBSO+CUpcv8NMYNwQ3cLVWfg++Lg7d+48uPfcc+9shIiIiIiIiIiIiIiIiIiISJfRCOlKms1mH8Ugbiyr8vf7RqPxKWpEX0gtIGDGKEYIkLmW+hGKc3gU9+GubIfD2I8z+Aif4IcQqUIAjeMMLuPNSn0vnsEXzV+ZxRs4gYNRczqawcoOOIhDUaTygTYu6y3b/45c2jdEMYM/40Nm/tvymbspjmMeL+BrzjWjZvCe2yiu4EV8jJfxduXcJF6Noj+qjOFz3IF78FnUmL++B6NzDlGcxZM4jlui82Qn5zKRA3MCN5X13/ElPsWl8rgO5OQ4haO4iNOVc7n8TeD2Nu6Tk+g8E+h+1JROZLCtmEGWmWQ4/g2ZGQ9HMTjV7JcTKINtLIrgq0smy6y0OrkP4BFcKev7Ym3WWo92V4X/Rke/Islm2QGZynPg97fxvOzYzdjzh3Z5v9WO/YpTzOLl8pk5YJk953FudemsG7xnZrFcHq/hK5zCO7zvx3KJvI6XYm0SyI38LD7Au7RfCJH1yK9HnMZveKtS34MX8EvLJn8eJ/EY9kfN8X+wmkCw5F51iIz0pqV+J8XpKPaWe6PY2I+Wvosim92LYh+3yPU/okYYYF0IQZfjNlCaX+q5jGZgLRFgKyEiIiIiIiIiIiIiIiIiIiIiIiIi0k38BIKMzXAY0feOAAAAAElFTkSuQmCC"/>
-</defs>
+<svg width="152.000000" height="40.000000" viewBox="0 0 152 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<pattern id="pattern_9_180" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+			<use xlink:href="#image9_18_0" transform="matrix(0.006579,0,0,0.025,0,0)"/>
+		</pattern>
+		<image id="image9_18_0" width="152.000000" height="40.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAAoCAYAAAACCDNUAAAABHNCSVQICAgIfAhkiAAAAkZJREFUeJzt2L9rU2EUxvHvadKmsdFKsWpFbYSCCLrZyVWKizjo5uLkIOggCN0c3Vydq5P/gXUrVRycxK6lrYoopGL9RVHax+G90tiqjSXJTeD5wB1y7k3ew3vfe96TC2ZmZmZmZmZmZmZmZmZmZl0m8k7AdkZSESgBA1moBHyMiM/5ZbVVMe8ELJFUBSoRMbcpXgEuASeBI8BBoALsAnqBGeAZ8AJYaWPK1g0kjUuakbQq6W5dvCDpgqTX+t2spDuSJiSV8sy9ES2tYNkEHAP6SaW8r4GvFbLr/yWAMukJ/gI8jYhaNuYIcBqoAYvAu4jQTvJvJUlDwA3gKvAcuA7crzs3CdwkzUe9KvAK2A8cAhbak/HONL0HkzQGXATOAuPAYLPH+IMF0jYxBJwBdmfxH8Ab4CWwnH3uBGXgHDAMLAHTdecqwASwr4HfqQGXI+Jx0zNsklZUsL3AGDBC6hPaoQ84Tro59dUvSIutSlp8nVLJCmw83KPACWAtixfZWrX+ptFdITct/RcpaYBUyivA0QbGKwB7gJ5trquwMbHfgKmIWM3GHCVVz3lg7tfW2WkklUnb4y3gLTAFPIiIT9kWeRu4xtYisALMAk+AhxGx2LakrftIqkqalvRd0r26eI+kK5K+bmry5yVNSjolqTfP3Bvh92AdQtIg0B8R7zfFDwDnSb3lYVJjP5wdH0jV7BGpj1uKiPV25r0dL7AuJClILUIf6QVrEVgHliNiLc/czMzMzMzMzMzMzMzMzMzMzMzMzMz+20+CjM1wfXhB9AAAAABJRU5ErkJggg=="/>
+		<pattern id="pattern_9_181" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+			<use xlink:href="#image9_18_1" transform="matrix(0.006579,0,0,0.025,0,0)"/>
+		</pattern>
+		<image id="image9_18_1" width="152.000000" height="40.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAAoCAYAAAACCDNUAAAABHNCSVQICAgIfAhkiAAAAkZJREFUeJzt2L9rU2EUxvHvadKmsdFKsWpFbYSCCLrZyVWKizjo5uLkIOggCN0c3Vydq5P/gXUrVRycxK6lrYoopGL9RVHax+G90tiqjSXJTeD5wB1y7k3ew3vfe96TC2ZmZmZmZmZmZmZmZmZmZl0m8k7AdkZSESgBA1moBHyMiM/5ZbVVMe8ELJFUBSoRMbcpXgEuASeBI8BBoALsAnqBGeAZ8AJYaWPK1g0kjUuakbQq6W5dvCDpgqTX+t2spDuSJiSV8sy9ES2tYNkEHAP6SaW8r4GvFbLr/yWAMukJ/gI8jYhaNuYIcBqoAYvAu4jQTvJvJUlDwA3gKvAcuA7crzs3CdwkzUe9KvAK2A8cAhbak/HONL0HkzQGXATOAuPAYLPH+IMF0jYxBJwBdmfxH8Ab4CWwnH3uBGXgHDAMLAHTdecqwASwr4HfqQGXI+Jx0zNsklZUsL3AGDBC6hPaoQ84Tro59dUvSIutSlp8nVLJCmw83KPACWAtixfZWrX+ptFdITct/RcpaYBUyivA0QbGKwB7gJ5trquwMbHfgKmIWM3GHCVVz3lg7tfW2WkklUnb4y3gLTAFPIiIT9kWeRu4xtYisALMAk+AhxGx2LakrftIqkqalvRd0r26eI+kK5K+bmry5yVNSjolqTfP3Bvh92AdQtIg0B8R7zfFDwDnSb3lYVJjP5wdH0jV7BGpj1uKiPV25r0dL7AuJClILUIf6QVrEVgHliNiLc/czMzMzMzMzMzMzMzMzMzMzMzMzMz+20+CjM1wfXhB9AAAAABJRU5ErkJggg=="/>
+	</defs>
+	<rect x="0.500000" y="0.500000" width="151.000000" height="39.000000" fill="url(#pattern_9_180)" fill-opacity="1.000000"/>
+	<rect x="0.500000" y="0.500000" width="151.000000" height="39.000000" stroke="url(#pattern_9_181)" stroke-opacity="1.000000" stroke-width="1.000000"/>
 </svg>

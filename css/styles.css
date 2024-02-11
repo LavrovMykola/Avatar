@@ -32,12 +32,12 @@ a{
 /* header -------------------------------------------------------------------- */
 }
 .header >.container {
-    height: 150px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
 }
 .header{
     content: '';
@@ -46,6 +46,7 @@ a{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding: 39px 0;
 }
 .logo{
     width: 186px;
@@ -63,6 +64,7 @@ a{
     font-weight: 400;
     font-size: 20px;
     padding: 6px 36px;
+    position: relative;
 }
 .login-button:hover{
     cursor: pointer;
@@ -83,7 +85,6 @@ a{
     align-items: center;
     flex-wrap: wrap;
     gap: 38px;
-    padding: 0 211px 0 166px;
 }
 .header-language{
     display: flex;
@@ -95,15 +96,15 @@ a{
     font-size: 14px;
     font-weight: bold;
     color: var(--white-color);
+    margin-right: -103px;
+    position: absolute;
+    top: 40%;
+    right: -50px;
 }
 .header-language-item{
     font-family: var(--third-family);
     font-weight: 400;
     font-size: 16px;
-    /* position: relative; */
-    /* bottom: 65px; */
-    /* left: 1111px; */
-    margin-right: -105px;
 }
 .switch{
     position: relative;
@@ -176,17 +177,30 @@ a{
     padding-left: 53px;
 }
 .jake_sally {
-    height: 350px;
     width: 100%;
     color: var(--blockquote-color);
     text-align: center;
     padding: 75px 0 10px;
 }
-.quote{
+.blockquote{
     font-size: 36px;
 }
 .quote-name{
+    color: #000;
     font-size: 24px;
+    margin: 16px 0 8px;
+}
+.quote-name::after{
+    content: '';
+    background-image: url(../img/symbol.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 120px;
+    
 }
 .join-to-clan-btn{
     width: 260px;
@@ -204,18 +218,29 @@ a{
 .join-to-clan-btn:hover{
     cursor: pointer;
 }
+.navi-translate::after{
+    content: '';
+    background-image: url('../img/white_arrow.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 152px;
+    height: 40px;
+    display: block;
+    margin-left: 53px;
+
+}
 .watch_trailer{
     content: '';
     background-image: url('../img/neitiri.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 741px;
     width: 100%;
     padding: 332px 0;
 
     }
-    .watch_trailer-btn{
+.watch_trailer-btn{
     width: 260px;
     height: 80px;
     border: 3px solid var(--button-border);
@@ -226,7 +251,7 @@ a{
     font-weight: 400;
     font-size: 24px;
     padding: 25px;
-    display: flex;
+    display: block;
     margin: 0 auto;
 
 }
@@ -239,7 +264,7 @@ a{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 704px;
+    padding: 58px 0;
     width: 100%;
     color: rgb(20, 20, 20);
     text-align: center;
@@ -248,7 +273,6 @@ a{
     font-family: var(--second-family);
     font-size: 32px;
     line-height: 1.25;
-    padding: 58px 0 45px;
 }
 .language_list{
     display: flex;
@@ -259,6 +283,7 @@ a{
     font-size: 24px;
     justify-content: space-between;
     text-align: center;
+    margin-top: 45px;
 }
 .language_box{
     width: 320px;
@@ -299,11 +324,8 @@ a{
     padding: 35px 0 25px;
 }
 .footer-list{
-    display: block;
     border-left: 2px solid white;
-    height: 135px;
-    padding-left: 60px;
-    align-items: center;
+    padding: 45px 0 45px 60px;
 }
 .footer-mail{
     color: white;
@@ -317,8 +339,5 @@ a{
     font-size: 17px
 }
 .footer-box.short{
-    padding: 45px 0 8px;
-}
-.footer-box.long {
-    padding: 8px 0 45px;
+    margin-bottom: 16px;
 }
