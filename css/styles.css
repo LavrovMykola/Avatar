@@ -95,12 +95,15 @@ a{
     font-size: 14px;
     font-weight: bold;
     color: var(--white-color);
-    margin-right: -105px;
 }
 .header-language-item{
     font-family: var(--third-family);
     font-weight: 400;
     font-size: 16px;
+    /* position: relative; */
+    /* bottom: 65px; */
+    /* left: 1111px; */
+    margin-right: -105px;
 }
 .switch{
     position: relative;
