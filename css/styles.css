@@ -29,8 +29,9 @@ ul {
 }
 a{
     text-decoration: none;
-/* header -------------------------------------------------------------------- */
 }
+/* header -------------------------------------------------------------------- */
+
 .header >.container {
     margin: 0 auto;
     display: flex;
@@ -216,6 +217,9 @@ a{
 .join-to-clan-btn:hover{
     cursor: pointer;
 }
+.join-to-clan-link{
+    color: var(--button-color);
+}
 .navi-translate::after{
     content: '';
     background-image: url('../img/white_arrow.svg');
@@ -251,6 +255,9 @@ a{
 }
 .watch_trailer-btn:hover{
     cursor: pointer;
+}
+.watch_trailer-link{
+    color: var(--button-color);
 }
 .learn_language {
     content: '';
